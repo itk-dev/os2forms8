@@ -571,16 +571,6 @@
                 "ssl",
                 "tls"
             ],
-            "funding": [
-                {
-                    "url": "https://packagist.com",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-04-08T08:27:21+00:00"
         },
         {
@@ -660,20 +650,6 @@
                 "autoload",
                 "dependency",
                 "package"
-            ],
-            "funding": [
-                {
-                    "url": "https://packagist.com",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/composer",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
-                    "type": "tidelift"
-                }
             ],
             "time": "2020-08-03T09:35:19+00:00"
         },
@@ -923,20 +899,6 @@
                 "spdx",
                 "validator"
             ],
-            "funding": [
-                {
-                    "url": "https://packagist.com",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/composer",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-07-15T15:35:07+00:00"
         },
         {
@@ -980,20 +942,6 @@
             "keywords": [
                 "Xdebug",
                 "performance"
-            ],
-            "funding": [
-                {
-                    "url": "https://packagist.com",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/composer",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
-                    "type": "tidelift"
-                }
             ],
             "time": "2020-06-04T11:16:35+00:00"
         },
@@ -2514,20 +2462,6 @@
             "keywords": [
                 "constructor",
                 "instantiate"
-            ],
-            "funding": [
-                {
-                    "url": "https://www.doctrine-project.org/sponsorship.html",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://www.patreon.com/phpdoctrine",
-                    "type": "patreon"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Finstantiator",
-                    "type": "tidelift"
-                }
             ],
             "time": "2020-05-29T17:27:14+00:00"
         },
@@ -4939,6 +4873,65 @@
             }
         },
         {
+            "name": "drupal/dynamic_entity_reference",
+            "version": "2.0.0-alpha14",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/dynamic_entity_reference.git",
+                "reference": "8.x-2.0-alpha14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/dynamic_entity_reference-8.x-2.0-alpha14.zip",
+                "reference": "8.x-2.0-alpha14",
+                "shasum": "7fc9f39fa9e81f87c66f98399420bb3f6dbafc79"
+            },
+            "require": {
+                "drupal/core": "^8.7.7 || ^9"
+            },
+            "require-dev": {
+                "drupal/diff": "1.x-dev"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.0-alpha14",
+                    "datestamp": "1603517207",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Lee Rowlands",
+                    "homepage": "https://www.drupal.org/u/larowlan",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Jibran Ijaz",
+                    "homepage": "https://www.drupal.org/u/jibran",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "larowlan",
+                    "homepage": "https://www.drupal.org/user/395439"
+                }
+            ],
+            "description": "Provides a field that allows an entity-reference field to reference more than one entity type.",
+            "homepage": "http://drupal.org/project/dynamic_entity_reference",
+            "support": {
+                "source": "http://cgit.drupalcode.org/dynamic_entity_reference",
+                "issues": "http://drupal.org/project/dynamic_entity_reference",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
             "name": "drupal/easy_breadcrumb",
             "version": "1.13.0",
             "source": {
@@ -5989,17 +5982,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/gin",
                 "issues": "https://www.drupal.org/project/issues/gin"
-            },
-            "funding": [
-                {
-                    "type": "github",
-                    "url": "https://github.com/sponsors/saschaeggi"
-                },
-                {
-                    "type": "other",
-                    "url": "https://paypal.me/saschaeggi"
-                }
-            ]
+            }
         },
         {
             "name": "drupal/gin_toolbar",
@@ -6048,17 +6031,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/gin_toolbar",
                 "issues": "https://www.drupal.org/project/issues/gin_toolbar"
-            },
-            "funding": [
-                {
-                    "type": "github",
-                    "url": "https://github.com/sponsors/saschaeggi"
-                },
-                {
-                    "type": "other",
-                    "url": "https://paypal.me/saschaeggi"
-                }
-            ]
+            }
         },
         {
             "name": "drupal/header_and_footer_scripts",
@@ -8280,6 +8253,54 @@
             }
         },
         {
+            "name": "drupal/switch_page_theme",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/switch_page_theme.git",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/switch_page_theme-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "77016580b68cfad9e65991b3d0ed8477a4e5b3aa"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1505717644",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ashish-deynap",
+                    "homepage": "https://www.drupal.org/user/3417767"
+                },
+                {
+                    "name": "deepali_agarwal",
+                    "homepage": "https://www.drupal.org/user/2438242"
+                }
+            ],
+            "description": "Switches active theme on specific pages.",
+            "homepage": "https://www.drupal.org/project/switch_page_theme",
+            "support": {
+                "source": "https://git.drupalcode.org/project/switch_page_theme"
+            }
+        },
+        {
             "name": "drupal/telephone_validation",
             "version": "2.2.0",
             "source": {
@@ -9396,6 +9417,58 @@
             }
         },
         {
+            "name": "drupal/workflow_participants",
+            "version": "dev-2.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/workflow_participants.git",
+                "reference": "9ac2f8e97eb339df81d45bf2090f4e84285e957a"
+            },
+            "require": {
+                "drupal/core": "^8",
+                "drupal/dynamic_entity_reference": "^2.0"
+            },
+            "require-dev": {
+                "drupal/content_moderation_notifications": "^3.0",
+                "drupal/diff": "^1.0",
+                "drupal/token": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.4+7-dev",
+                    "datestamp": "1569622687",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "jhedstrom",
+                    "homepage": "https://www.drupal.org/user/208732"
+                }
+            ],
+            "description": "Allows for per-entity workflow participants (editors and reviewers) to be assigned.",
+            "homepage": "https://www.drupal.org/project/workflow_participants",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/workflow_participants",
+                "issues": "https://www.drupal.org/project/issues/workflow_participants"
+            },
+            "time": "2019-09-27T22:16:11+00:00"
+        },
+        {
             "name": "drupol/phposinfo",
             "version": "1.6.5",
             "source": {
@@ -9438,6 +9511,7 @@
             "keywords": [
                 "operating system detection"
             ],
+            "abandoned": "loophp/phposinfo",
             "time": "2020-05-19T14:14:28+00:00"
         },
         {
@@ -11252,12 +11326,6 @@
                 "object",
                 "object graph"
             ],
-            "funding": [
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/myclabs/deep-copy",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-06-29T13:22:24+00:00"
         },
         {
@@ -11467,15 +11535,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OS2Forms/os2forms_forloeb.git",
-                "reference": "9c6f7073b3530ffcff97be4e642995c941d5a30a"
+                "reference": "9c6c9acbd982a723ecf836637d4b4a600d0b82f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OS2Forms/os2forms_forloeb/zipball/9c6f7073b3530ffcff97be4e642995c941d5a30a",
-                "reference": "9c6f7073b3530ffcff97be4e642995c941d5a30a",
+                "url": "https://api.github.com/repos/OS2Forms/os2forms_forloeb/zipball/9c6c9acbd982a723ecf836637d4b4a600d0b82f1",
+                "reference": "9c6c9acbd982a723ecf836637d4b4a600d0b82f1",
                 "shasum": ""
             },
             "require": {
+                "cweagans/composer-patches": "^1.6.5",
                 "drupal/admin_toolbar": "^2.3",
                 "drupal/chosen": "2.10.0",
                 "drupal/ckeditor_a11ychecker": "1.0.0",
@@ -11501,6 +11570,7 @@
                 "drupal/rules_webform": "1.5.0",
                 "drupal/simple_ldap": "1.0.0-alpha3",
                 "drupal/simplesamlphp_auth": "3.2.0",
+                "drupal/switch_page_theme": "1.0",
                 "drupal/telephone_validation": "^2.2",
                 "drupal/ultimate_cron": "2.0.0-alpha5",
                 "drupal/user_default_page": "2.0.0-rc1",
@@ -11509,7 +11579,7 @@
                 "drupal/webform_rest": "4.0.0-beta2",
                 "drupal/webform_scheduled_tasks": "^2.0",
                 "drupal/webform_views": "5.0.0-alpha7",
-                "vaimo/composer-patches": "^4.20",
+                "drupal/workflow_participants": "^2.4",
                 "vlucas/phpdotenv": "^2.4",
                 "webmozart/path-util": "2.3.0",
                 "zaporylie/composer-drupal-optimizations": "1.2.0"
@@ -11521,6 +11591,9 @@
                     "test": "-p2"
                 },
                 "enable-patching": true,
+                "patcher": {
+                    "force-reset": true
+                },
                 "patches": {
                     "drupal/entity_print": {
                         "2733781 - Add Export to Word Support": "https://www.drupal.org/files/issues/2019-11-22/2733781-47.patch"
@@ -11535,7 +11608,7 @@
                 "EUPL-1.2"
             ],
             "description": "This module adds Maestro workflow engine and functionality to produce advanced workflows",
-            "time": "2021-03-10T16:55:52+00:00"
+            "time": "2021-03-24T13:22:19+00:00"
         },
         {
             "name": "os2web/os2web_datalookup",
@@ -12620,20 +12693,6 @@
                 "twofish",
                 "x.509",
                 "x509"
-            ],
-            "funding": [
-                {
-                    "url": "https://github.com/terrafrost",
-                    "type": "github"
-                },
-                {
-                    "url": "https://www.patreon.com/phpseclib",
-                    "type": "patreon"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/phpseclib/phpseclib",
-                    "type": "tidelift"
-                }
             ],
             "time": "2020-12-17T05:42:04+00:00"
         },
@@ -15891,20 +15950,6 @@
             ],
             "description": "Symfony BrowserKit Component",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-04-27T06:55:12+00:00"
         },
         {
@@ -16668,20 +16713,6 @@
                 "redlock",
                 "semaphore"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-07-23T12:42:41+00:00"
         },
         {
@@ -16747,20 +16778,6 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-07-22T22:00:00+00:00"
         },
         {
@@ -17941,12 +17958,6 @@
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
-            "funding": [
-                {
-                    "url": "https://github.com/theseer",
-                    "type": "github"
-                }
-            ],
             "time": "2020-07-12T23:59:07+00:00"
         },
         {
