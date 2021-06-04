@@ -9969,12 +9969,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-dev/itkdev_openid_connect_drupal.git",
-                "reference": "b45ee92f26787aee0afa0de9ce5e7e13352c9f4c"
+                "reference": "d74a00284013a02cd00361ba65400e42ca228414"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-dev/itkdev_openid_connect_drupal/zipball/b45ee92f26787aee0afa0de9ce5e7e13352c9f4c",
-                "reference": "b45ee92f26787aee0afa0de9ce5e7e13352c9f4c",
+                "url": "https://api.github.com/repos/itk-dev/itkdev_openid_connect_drupal/zipball/d74a00284013a02cd00361ba65400e42ca228414",
+                "reference": "d74a00284013a02cd00361ba65400e42ca228414",
                 "shasum": ""
             },
             "require": {
@@ -9997,11 +9997,7 @@
                 }
             ],
             "description": "OpenID Connect module",
-            "support": {
-                "issues": "https://github.com/itk-dev/itkdev_openid_connect_drupal/issues",
-                "source": "https://github.com/itk-dev/itkdev_openid_connect_drupal/tree/develop"
-            },
-            "time": "2021-05-19T11:19:25+00:00"
+            "time": "2021-06-01T13:30:11+00:00"
         },
         {
             "name": "itk-dev/openid-connect",
