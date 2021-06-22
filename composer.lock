@@ -10147,7 +10147,7 @@
                 }
             ],
             "description": "OpenID Connect module",
-            "time": "2021-06-01T13:30:11+00:00"
+            "time": "2021-06-22T09:07:27+00:00"
         },
         {
             "name": "itk-dev/openid-connect",
@@ -10268,12 +10268,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-dev/os2forms_nemlogin_openid_connect.git",
-                "reference": "b593412948985897c6050251241a7cd46957905a"
+                "reference": "2375185a4b657d3af284ec20e3aa28579e6ac228"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-dev/os2forms_nemlogin_openid_connect/zipball/b593412948985897c6050251241a7cd46957905a",
-                "reference": "b593412948985897c6050251241a7cd46957905a",
+                "url": "https://api.github.com/repos/itk-dev/os2forms_nemlogin_openid_connect/zipball/2375185a4b657d3af284ec20e3aa28579e6ac228",
+                "reference": "2375185a4b657d3af284ec20e3aa28579e6ac228",
                 "shasum": ""
             },
             "require-dev": {
@@ -10301,7 +10301,7 @@
                 "source": "https://github.com/itk-dev/os2forms_nemlogin_openid_connect/tree/develop",
                 "issues": "https://github.com/itk-dev/os2forms_nemlogin_openid_connect/issues"
             },
-            "time": "2021-06-22T08:55:46+00:00"
+            "time": "2021-06-22T12:43:22+00:00"
         },
         {
             "name": "itk-dev/serviceplatformen",
