@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e1056e642f9201e6ebf060dd96cc5ccf",
+    "content-hash": "d7ad237b8baf9e45f8784be102db0926",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -10114,6 +10114,43 @@
             "time": "2021-02-08T11:39:53+00:00"
         },
         {
+            "name": "itk-dev/drupal_psr6_cache",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itk-dev/drupal_psr6_cache.git",
+                "reference": "7edfd92a817e7ecba02671184a063b3f284f9d6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itk-dev/drupal_psr6_cache/zipball/7edfd92a817e7ecba02671184a063b3f284f9d6d",
+                "reference": "7edfd92a817e7ecba02671184a063b3f284f9d6d",
+                "shasum": ""
+            },
+            "require": {
+                "psr/cache": "^1.0"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "drupal/coder": "^8.3"
+            },
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Mikkel Ricky",
+                    "email": "rimi@aarhus.dk"
+                }
+            ],
+            "description": "PSR-6: Caching Interface for Drupal 8+",
+            "homepage": "https://github.com/itk-dev/drupal_psr6_cache",
+            "support": {
+                "issues": "https://github.com/itk-dev/drupal_psr6_cache/issues",
+                "source": "https://github.com/itk-dev/drupal_psr6_cache/tree/develop"
+            },
+            "time": "2021-06-22T13:03:20+00:00"
+        },
+        {
             "name": "itk-dev/itkdev_openid_connect_drupal",
             "version": "dev-develop",
             "source": {
@@ -17869,6 +17906,7 @@
         "drupal/webform_analysis": 10,
         "drupal/webform_composite": 5,
         "drupal/webform_views": 15,
+        "itk-dev/drupal_psr6_cache": 20,
         "itk-dev/itkdev_openid_connect_drupal": 20,
         "itk-dev/os2forms-cpr-lookup": 20,
         "itk-dev/os2forms_nemlogin_openid_connect": 20,
@@ -17881,5 +17919,5 @@
         "php": ">=7.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.1.0"
 }
