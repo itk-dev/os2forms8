@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d19d55b1e424345b49fdae6bbc8501ff",
+    "content-hash": "e1056e642f9201e6ebf060dd96cc5ccf",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -10208,16 +10208,16 @@
         },
         {
             "name": "itk-dev/os2forms-cpr-lookup",
-            "version": "dev-develop",
+            "version": "dev-nemid-lookup",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-dev/os2forms_cpr_lookup.git",
-                "reference": "d4c62d009f84b55e724d71cb69287d87a009e711"
+                "reference": "420863c643104a72045bfac3ef3163143f11ba00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-dev/os2forms_cpr_lookup/zipball/d4c62d009f84b55e724d71cb69287d87a009e711",
-                "reference": "d4c62d009f84b55e724d71cb69287d87a009e711",
+                "url": "https://api.github.com/repos/itk-dev/os2forms_cpr_lookup/zipball/420863c643104a72045bfac3ef3163143f11ba00",
+                "reference": "420863c643104a72045bfac3ef3163143f11ba00",
                 "shasum": ""
             },
             "require": {
@@ -10232,6 +10232,20 @@
                 "drupal/coder": "^8.3"
             },
             "type": "drupal-module",
+            "scripts": {
+                "coding-standards-check/phpcs": [
+                    "phpcs --standard=phpcs.xml.dist"
+                ],
+                "coding-standards-check": [
+                    "@coding-standards-check/phpcs"
+                ],
+                "coding-standards-apply/phpcs": [
+                    "phpcbf --standard=phpcs.xml.dist"
+                ],
+                "coding-standards-apply": [
+                    "@coding-standards-apply/phpcs"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -10243,10 +10257,10 @@
             ],
             "description": "Provides integration to CPR service provided by Serviceplatformen.",
             "support": {
-                "source": "https://github.com/itk-dev/os2forms_cpr_lookup/tree/develop",
+                "source": "https://github.com/itk-dev/os2forms_cpr_lookup/tree/feature/nemid-lookup",
                 "issues": "https://github.com/itk-dev/os2forms_cpr_lookup/issues"
             },
-            "time": "2021-06-16T06:16:42+00:00"
+            "time": "2021-06-22T07:50:01+00:00"
         },
         {
             "name": "itk-dev/os2forms_nemlogin_openid_connect",

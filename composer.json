@@ -54,7 +54,7 @@
         "drupal/webform_views": "^5.0@alpha",
         "drush/drush": "^9.0.0",
         "itk-dev/itkdev_openid_connect_drupal": "dev-develop",
-        "itk-dev/os2forms-cpr-lookup": "dev-develop",
+        "itk-dev/os2forms-cpr-lookup": "dev-nemid-lookup",
         "itk-dev/os2forms_nemlogin_openid_connect": "dev-develop",
         "os2core/os2core": "^1.0.3",
         "os2forms/os2forms": "^2.5",
