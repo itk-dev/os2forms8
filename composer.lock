@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d7ad237b8baf9e45f8784be102db0926",
+    "content-hash": "4686774864daafb9016b140cc0c2c481",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -7967,7 +7967,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/typed_data.git",
-                "reference": "d6550fd64428642da9ace9281670e70f7018f0b1"
+                "reference": "27555f47b522730d04f3b33c9a46c0acbcb3146e"
             },
             "require": {
                 "drupal/core": "^8.8.2 || ^9"
@@ -7978,8 +7978,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha5+24-dev",
-                    "datestamp": "1623702620",
+                    "version": "8.x-1.0-alpha5+21-dev",
+                    "datestamp": "1600719315",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -8011,7 +8011,7 @@
                 "source": "https://git.drupalcode.org/project/typed_data",
                 "issues": "https://www.drupal.org/project/issues/typed_data"
             },
-            "time": "2021-06-14T20:31:09+00:00"
+            "time": "2020-10-30T06:56:14+00:00"
         },
         {
             "name": "drupal/ultimate_cron",
@@ -10144,10 +10144,6 @@
             ],
             "description": "PSR-6: Caching Interface for Drupal 8+",
             "homepage": "https://github.com/itk-dev/drupal_psr6_cache",
-            "support": {
-                "issues": "https://github.com/itk-dev/drupal_psr6_cache/issues",
-                "source": "https://github.com/itk-dev/drupal_psr6_cache/tree/develop"
-            },
             "time": "2021-06-22T13:03:20+00:00"
         },
         {
@@ -10245,22 +10241,24 @@
         },
         {
             "name": "itk-dev/os2forms-cpr-lookup",
-            "version": "dev-nemid-lookup",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-dev/os2forms_cpr_lookup.git",
-                "reference": "420863c643104a72045bfac3ef3163143f11ba00"
+                "reference": "caac58d70540aa94e3d681b70152824055d39ba5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-dev/os2forms_cpr_lookup/zipball/420863c643104a72045bfac3ef3163143f11ba00",
-                "reference": "420863c643104a72045bfac3ef3163143f11ba00",
+                "url": "https://api.github.com/repos/itk-dev/os2forms_cpr_lookup/zipball/caac58d70540aa94e3d681b70152824055d39ba5",
+                "reference": "caac58d70540aa94e3d681b70152824055d39ba5",
                 "shasum": ""
             },
             "require": {
                 "ext-soap": "*",
                 "http-interop/http-factory-guzzle": "^1.0.0",
                 "itk-dev/serviceplatformen": "^1.0",
+                "os2forms/os2forms": "^2.5",
+                "os2web/os2web_nemlogin": "^1.0",
                 "php-http/guzzle6-adapter": "^2.0.1",
                 "symfony/property-access": "^4.4"
             },
@@ -10294,10 +10292,10 @@
             ],
             "description": "Provides integration to CPR service provided by Serviceplatformen.",
             "support": {
-                "source": "https://github.com/itk-dev/os2forms_cpr_lookup/tree/feature/nemid-lookup",
+                "source": "https://github.com/itk-dev/os2forms_cpr_lookup/tree/develop",
                 "issues": "https://github.com/itk-dev/os2forms_cpr_lookup/issues"
             },
-            "time": "2021-06-22T07:50:01+00:00"
+            "time": "2021-06-23T11:35:43+00:00"
         },
         {
             "name": "itk-dev/os2forms_nemlogin_openid_connect",
@@ -17919,5 +17917,5 @@
         "php": ">=7.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "1.1.0"
 }
